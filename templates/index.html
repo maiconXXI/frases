@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frases da Vida</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>FRASES</h1>
+
+    <h2>Inspire-se. Compartilhe. Transforme.</h2>
+
+    <div class="card">
+
+        <div class="aspas">❝</div>
+
+        <p id="frase">
+            Carregando inspiração...
+        </p>
+
+        <h3 id="autor"></h3>
+
+    </div>
+
+    <div class="botoes">
+
+        <button id="sortear">
+            ✨ Quero uma frase
+        </button>
+
+        <button id="copiar">
+            📋 Copiar
+        </button>
+
+        <button id="compartilhar">
+            📤 Compartilhar
+        </button>
+
+    </div>
+
+    <p id="mensagem"></p>
+
+    <footer>
+
+        Uma inspiração pode transformar um dia.
+
+    </footer>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

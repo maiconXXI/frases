@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+    135deg,
+    #5E0000,
+    #8B0000,
+    #B22222,
+    #D4AF37,
+    #F4C542
+    );
+
+}
+
+.container{
+
+    width:850px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+    text-align:center;
+
+}
+
+h1{
+
+    color:white;
+
+    font-size:46px;
+
+}
+
+h2{
+
+    color:#ffe79d;
+
+    margin-top:10px;
+
+    margin-bottom:35px;
+
+    font-weight:300;
+
+}
+
+.card{
+
+    background:#fffdf8;
+
+    border:3px solid #D4AF37;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    min-height:220px;
+
+    transition:.4s;
+
+}
+
+.aspas{
+
+    font-size:55px;
+
+    color:#D4AF37;
+
+}
+
+#frase{
+
+    font-size:30px;
+
+    color:#333;
+
+    margin:20px;
+
+    line-height:1.5;
+
+}
+
+#autor{
+
+    color:#666;
+
+    font-style:italic;
+
+}
+
+.botoes{
+
+    margin-top:35px;
+
+}
+
+button{
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:15px 30px;
+
+    margin:8px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#sortear{
+
+    background:#D4AF37;
+
+}
+
+#copiar{
+
+    background:white;
+
+}
+
+#compartilhar{
+
+    background:#8B0000;
+
+    color:white;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px) scale(1.05);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+#mensagem{
+
+    margin-top:25px;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+footer{
+
+    margin-top:35px;
+
+    color:white;
+
+    opacity:.9;
+
+}
